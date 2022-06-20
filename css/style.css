@@ -16,6 +16,7 @@ body{
 }
 
 .container{
+    width: 75%;
     max-width: 1250px;
     margin: 0 auto;
 }
@@ -75,11 +76,15 @@ body{
 }
 
 
-/* nav area */
+/* nav section */
 
-nav{
+.navSection{
+    width: 100%;
     color: #7777;
     padding: 40px 0;
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
 }
 .nav-div{
     display: flex;
@@ -109,10 +114,28 @@ ul li a:hover{
 }
 
 /* banner section */
+.bannerOffer{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 20px;
+    left: 29.5%;
+    background-color: #fe7865;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerSection{
+    width: 100%;
+    padding: 150px 80px 100px 80px;
+}
 
 .banner{
-    max-width: 1700px;
-    margin: 0 auto;
     display: flex;
     position: relative;
 }
@@ -127,7 +150,7 @@ ul li a:hover{
 .banner-right{
     padding-top: 140px;
     padding-left: 150px;
-    width: 63%;
+    width: 67%;
     background-color: #FFFAF6;
 }
 .banner-right h1{
@@ -225,6 +248,23 @@ ul li a:hover{
 }
 
 /* second section */
+
+.randomOffer{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fe7865;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .second-section{
     padding-top: 0;
@@ -492,11 +532,18 @@ ul li a:hover{
     font-size: 0.8rem;
 }
 /* seventh section */
+
+
+.seventh-section{
+    text-align: center;
+}
+
 .team-loved{
     text-align: left;
+    margin-top: 50px;
 }
 .loved-div{
-    margin: 50px 0;
+    width: 30%;
     border: 1px solid #ddd;
 }
 .loved-image{
