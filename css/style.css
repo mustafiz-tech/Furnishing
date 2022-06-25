@@ -457,7 +457,7 @@ ul li a:hover{
 .fifth-para{
     margin-top: 20px;
     margin-bottom: 50px;
-    padding: 0 350px;   
+    padding: 0 350px;
 }
 .person-name{
     text-decoration: none;
@@ -477,7 +477,7 @@ ul li a:hover{
     color: #777;
     margin: 15px;
     text-transform: uppercase;
-    letter-spacing: 3px; 
+    letter-spacing: 3px;
 }
 .three-icons{
     background-color: #ffe8e5;
@@ -787,17 +787,17 @@ ul li a:hover{
 
     html{
         font-size: 14px;
-    }  
-    
+    }
+
     .image {
         min-height: 450px;
     }
-    
+
     .bannerOffer{
         left: 29%;
         height: 80px;
         width: 80px;
-    } 
+    }
     .bannerRight {
         padding: 50px 0 0 50px;
     }
@@ -807,7 +807,7 @@ ul li a:hover{
     .bannerBottom {
         margin-top: 50px;
     }
-    .bannerSection{ 
+    .bannerSection{
         padding: 150px 20px 0 20px;
     }
 
@@ -836,8 +836,8 @@ ul li a:hover{
 
     /* banner section */
 
-        
-    .bannerSection{ 
+
+    .bannerSection{
         padding: 150px 20px 0 20px;
     }
     .image {
@@ -847,7 +847,7 @@ ul li a:hover{
         left: 29%;
         height: 80px;
         width: 80px;
-    } 
+    }
     .bannerRight {
         padding: 50px 0 0 50px;
     }
@@ -883,10 +883,10 @@ ul li a:hover{
     }
     .chair{
         width: 30%;
-    } 
+    }
     .randomChair{
         display: none;
-    } 
+    }
     .randomOffer{
         height: 70px;
         width: 70px;
@@ -997,8 +997,8 @@ ul li a:hover{
     }
     .navSection .homeList{
         margin-left: 7px;
-    } 
-    
+    }
+
     /* banner section */
 
 
@@ -1059,7 +1059,7 @@ ul li a:hover{
         width: 100%;
         margin-bottom: 30PX;
     }
-     
+
     /* third section */
 
     .thirdSection{
@@ -1122,7 +1122,7 @@ ul li a:hover{
         font-size: 1.2rem;
         font-weight: 600;
     }
-    
+
     .bottom-loved-a{
         font-size: 1rem;
     }
@@ -1148,7 +1148,7 @@ ul li a:hover{
     .textarea{
         width: 100%;
         margin-top: 0;
-    } 
+    }
 
     /* footer section */
 
@@ -1183,7 +1183,7 @@ ul li a:hover{
 
    .navSection ul li a{
         font-size: 0.89rem;
-   } 
+   }
    .secondChair{
         width: 80%;
         margin: 0 auto;
@@ -1191,19 +1191,20 @@ ul li a:hover{
    }
 }
 
-@media only screen and (max-width:575px){
+@media only screen and (max-width:480px){
     .navSection{
         padding: 0;
     }
     .navSection ul{
         padding-top: 0;
+        margin: 0 auto;
     }
     .navSection ul li a{
-        font-size: 0.6rem;
-    } 
-    .navSection .homeList{
-        margin-left: 0;
+        font-size: 0.9rem;
     }
+    /* .navSection .homeList{
+        margin-left: 0;
+    } */
     .bannerSection{
         padding-top: 100px;
     }
