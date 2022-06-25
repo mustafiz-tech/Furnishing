@@ -1202,9 +1202,6 @@ ul li a:hover{
     .navSection ul li a{
         font-size: 0.9rem;
     }
-    /* .navSection .homeList{
-        margin-left: 0;
-    } */
     .bannerSection{
         padding-top: 100px;
     }
@@ -1224,4 +1221,13 @@ ul li a:hover{
     .random-icon-div{
         width: 25%;
     }
+}
+@media only screen and (max-width:360px){
+    .navSection ul li a{
+        font-size: 0.9rem;
+    }
+    .navSection .homeList{
+        margin-right: 10px;
+    }
+
 }
