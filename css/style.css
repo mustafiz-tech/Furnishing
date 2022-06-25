@@ -5,7 +5,9 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+}
+html{
+    font-size: 17px;
 }
 
 /* common classes */
@@ -81,10 +83,16 @@ body{
     background-color: #fff;
     z-index: 99;
 }
-.nav-div{
+.logoImg{
+    width: 15%;
+}
+.navLIst{
+    width: 78%;
+}
+/* .nav-div{
     display: flex;
     justify-content: space-between;
-}
+} */
 ul{
     display: flex;
     justify-content: space-between;
@@ -117,7 +125,7 @@ ul li a:hover{
     left: 29.5%;
     background-color: #fe7865;
     border-radius: 50%;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: #fff;
     font-weight: 600;
     text-align: center;
@@ -737,6 +745,18 @@ ul li a:hover{
     font-size: 1rem;
     margin-bottom: 25px;
 }
+.contactNow{
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: #fe7865;
+    color: #fff;
+    padding: 0.8rem 2.5rem;
+    border:1px solid #fe7865;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all 0.5s ease 0s;
+    text-transform: uppercase;
+}
 
 /* bottom section */
 
@@ -760,12 +780,63 @@ ul li a:hover{
 
 /* -------media querry--------  */
 
-/* ----------------  view in 991px  ------------------- */
+/* ----------------  view in 1024px  ------------------- */
+
+
+@media only screen and (max-width:1080px){
+
+    html{
+        font-size: 14px;
+    }  
+    
+    .image {
+        min-height: 450px;
+    }
+    
+    .bannerOffer{
+        left: 29%;
+        height: 80px;
+        width: 80px;
+    } 
+    .bannerRight {
+        padding: 50px 0 0 50px;
+    }
+    .bannerRight p {
+        padding-right: 50px;
+    }
+    .bannerBottom {
+        margin-top: 50px;
+    }
+    .bannerSection{ 
+        padding: 150px 20px 0 20px;
+    }
+
+    .fifth-para{
+        padding: 0 100px;
+    }
+
+    .lisaWhite{
+        width: 60%;
+    }
+}
+
 
 @media only screen and (max-width:991px){
 
+    /* nav section */
+
+
+    html{
+        font-size: 12px;
+    }
+
+    .ul li{
+        margin-left: 10px;
+    }
+
     /* banner section */
 
+        
     .bannerSection{ 
         padding: 150px 20px 0 20px;
     }
@@ -773,25 +844,19 @@ ul li a:hover{
         min-height: 450px;
     }
     .bannerOffer{
-        left: 27%;
+        left: 29%;
         height: 80px;
         width: 80px;
-        font-size: 1.2rem;
     } 
     .bannerRight {
         padding: 50px 0 0 50px;
     }
     .bannerRight h1{
-        font-size: 3rem;
         font-weight: 600;
-        line-height: 3.5rem;
+        line-height: 7rem;
     }
     .bannerRight p {
-        font-size: 1rem;
         padding-right: 50px;
-    }
-    .bannerBtn{
-        font-size: 1rem;
     }
     .bannerBottom {
         margin-top: 50px;
@@ -813,7 +878,6 @@ ul li a:hover{
     /* second section */
 
     .our-collection{
-        font-size: 1.2rem;
         font-weight: 700;
         padding: 20px 0;
     }
@@ -823,13 +887,9 @@ ul li a:hover{
     .randomChair{
         display: none;
     } 
-    .ss-para{
-        font-size: 1rem;
-    }
     .randomOffer{
         height: 70px;
         width: 70px;
-        font-size: 1.2rem;
     }
 
     /* third section */
@@ -888,16 +948,56 @@ ul li a:hover{
         width: 33%;
         margin-bottom: 30px;
     }
+    .mustafiz{
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #fe7865;
+        font-style: italic;
+    }
 }
 
+@media only screen and (max-width:991px){
+
+    .navSection{
+        padding: 20px ;
+    }
+
+   .navSection .homeList{
+        margin-left: 0;
+   }
+}
+
+
 /* ----------------  view in 575px  ------------------- */
+
+
 @media only screen and (max-width:575px){
 
     /* common classe  */
 
+    html{
+        font-size: 15px;
+    }
+
     .container{
         width: 95%;
     }
+
+    /* nav section */
+
+
+    .navSection{
+        padding: 20px 0;
+    }
+    .navSection img{
+        margin: 0 auto;
+    }
+    .navSection ul li {
+        margin-left: 20px;
+    }
+    .navSection .homeList{
+        margin-left: 7px;
+    } 
     
     /* banner section */
 
@@ -973,7 +1073,17 @@ ul li a:hover{
     /* fourth section */
 
     .fourthSection{
-        padding: 50px 0;
+        padding: 50px 0 0;
+    }
+    .article-btn{
+        left: 50px;
+        bottom: 100px;
+        padding: 10px 30px;
+    }
+    .article-para{
+        margin-bottom: 20px;
+        position: relative;
+        top: -30px;
     }
 
     /* fifth section */
@@ -1020,12 +1130,25 @@ ul li a:hover{
     .seventhSection{
         padding-bottom: 0;
     }
-    
+    .common-h1{
+        font-size: 2rem;
+    }
+    .common-para{
+        padding: 0 10px;
+    }
     /* eight section */
 
     .eight-section{
         padding-bottom: 50px;
     }
+    .input{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .textarea{
+        width: 100%;
+        margin-top: 0;
+    } 
 
     /* footer section */
 
@@ -1040,5 +1163,64 @@ ul li a:hover{
     .main-div{
         display: flex;
         justify-content: left;
+    }
+
+    .footer-icon-div{
+        width: 10%;
+    }
+    .contactNow{
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+    .bottom-head{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width:575px){
+
+   .navSection ul li a{
+        font-size: 0.89rem;
+   } 
+   .secondChair{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+   }
+}
+
+@media only screen and (max-width:575px){
+    .navSection{
+        padding: 0;
+    }
+    .navSection ul{
+        padding-top: 0;
+    }
+    .navSection ul li a{
+        font-size: 0.6rem;
+    } 
+    .navSection .homeList{
+        margin-left: 0;
+    }
+    .bannerSection{
+        padding-top: 100px;
+    }
+    .bannerRight h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .bannerRight p{
+        padding-left: 0;
+    }
+    .horizontal{
+        width: 50%;
+    }
+    .icon{
+        width: 35%;
+    }
+    .random-icon-div{
+        width: 25%;
     }
 }
